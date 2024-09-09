@@ -269,7 +269,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -12.7 16.002 0)
+			(at -12.7 15.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -287,7 +287,7 @@
 			)
 		)
 		(property "Footprint" "MixLib:MODULE_ESP32-C3_SUPERMINI"
-			(at -1.27 18.796 0)
+			(at -1.524 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -315,7 +315,7 @@
 			)
 		)
 		(property "MF" "Espressif Systems"
-			(at 0.762 17.018 0)
+			(at -7.112 22.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -325,7 +325,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.2mm"
-			(at -1.016 18.542 0)
+			(at -1.27 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -335,7 +335,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at -1.27 18.796 0)
+			(at -1.524 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -345,7 +345,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at -1.016 18.034 0)
+			(at -1.27 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -355,7 +355,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-C3%20SuperMini/Espressif+Systems/view-part/?ref=eda"
-			(at 0.508 19.304 0)
+			(at 0.254 24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -365,7 +365,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 0.254 17.78 0)
+			(at -7.62 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -385,7 +385,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-C3%20SuperMini/Espressif+Systems/view-part/?ref=snap"
-			(at 0.508 19.304 0)
+			(at 0.254 24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -395,7 +395,7 @@
 			)
 		)
 		(property "MP" "ESP32-C3 SuperMini"
-			(at -1.27 7.62 0)
+			(at -1.27 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -405,7 +405,7 @@
 			)
 		)
 		(property "Description_1" "\nSuper tiny ESP32-C3 board\n"
-			(at -0.508 18.542 0)
+			(at -0.762 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -415,7 +415,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 1.27 18.034 0)
+			(at 1.016 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -425,7 +425,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Espressif"
-			(at -1.27 18.796 0)
+			(at -1.524 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -437,7 +437,7 @@
 		(symbol "ESP32-C3_SUPERMINI_0_0"
 			(rectangle
 				(start -12.7 15.24)
-				(end 12.7 -17.78)
+				(end 5.08 -13.462)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -447,7 +447,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 5.08 0)
+				(at -17.78 6.35 0)
 				(length 5.08)
 				(name "GPIO0"
 					(effects
@@ -465,7 +465,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 2.54 0)
+				(at -17.78 3.81 0)
 				(length 5.08)
 				(name "GPIO1"
 					(effects
@@ -483,7 +483,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -2.54 180)
+				(at 10.16 -2.54 180)
 				(length 5.08)
 				(name "GPIO10"
 					(effects
@@ -501,7 +501,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 0 0)
+				(at -17.78 1.27 0)
 				(length 5.08)
 				(name "GPIO2"
 					(effects
@@ -519,7 +519,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -5.08 180)
+				(at 10.16 -5.08 180)
 				(length 5.08)
 				(name "GPIO20"
 					(effects
@@ -537,7 +537,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -7.62 180)
+				(at 10.16 -7.62 180)
 				(length 5.08)
 				(name "GPIO21"
 					(effects
@@ -555,7 +555,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -2.54 0)
+				(at -17.78 -1.27 0)
 				(length 5.08)
 				(name "GPIO3"
 					(effects
@@ -573,7 +573,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 10.16 180)
+				(at -17.78 12.7 0)
 				(length 5.08)
 				(name "3V3"
 					(effects
@@ -591,7 +591,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -5.08 0)
+				(at -17.78 -3.81 0)
 				(length 5.08)
 				(name "GPIO4"
 					(effects
@@ -609,7 +609,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -7.62 0)
+				(at -17.78 -6.35 0)
 				(length 5.08)
 				(name "GPIO5"
 					(effects
@@ -627,7 +627,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 12.7 180)
+				(at -17.78 10.16 0)
 				(length 5.08)
 				(name "5V"
 					(effects
@@ -645,7 +645,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -10.16 0)
+				(at -17.78 -8.89 0)
 				(length 5.08)
 				(name "GPIO6"
 					(effects
@@ -663,7 +663,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 5.08 180)
+				(at 10.16 5.08 180)
 				(length 5.08)
 				(name "GPIO7"
 					(effects
@@ -681,7 +681,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 2.54 180)
+				(at 10.16 2.54 180)
 				(length 5.08)
 				(name "GPIO8"
 					(effects
@@ -699,7 +699,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 0 180)
+				(at 10.16 0 180)
 				(length 5.08)
 				(name "GPIO9"
 					(effects
@@ -717,7 +717,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 -15.24 180)
+				(at 10.16 12.7 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1498,7 +1498,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 7.62 -1.27 180)
 				(length 2.54)
 				(name "GND"
@@ -1544,7 +1544,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -4.318 4.826 0)
+			(at -5.588 5.08 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1589,7 +1589,7 @@
 		(symbol "Mini360_1_1"
 			(rectangle
 				(start -10.16 6.35)
-				(end 2.54 -3.81)
+				(end 0 -2.54)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1599,8 +1599,8 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 3.81 0)
-				(length 5.08)
+				(at -12.7 3.81 0)
+				(length 2.54)
 				(name "IN"
 					(effects
 						(font
@@ -1617,8 +1617,8 @@
 				)
 			)
 			(pin power_out line
-				(at -3.81 -8.89 90)
-				(length 5.08)
+				(at 2.54 0 180)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -1635,8 +1635,8 @@
 				)
 			)
 			(pin power_out line
-				(at 7.62 3.81 180)
-				(length 5.08)
+				(at 2.54 3.81 180)
+				(length 2.54)
 				(name "OUT"
 					(effects
 						(font
