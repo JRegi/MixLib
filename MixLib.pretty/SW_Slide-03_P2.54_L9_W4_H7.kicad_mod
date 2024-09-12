@@ -112,22 +112,21 @@
 			)
 		)
 	)
-	(pad "1" thru_hole roundrect
-		(at 0 0)
-		(size 1.524 1.524)
-		(drill 0.762)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.1640419948)
-		(uuid "0f492639-e305-4e17-9609-acd99070a9df")
-	)
-	(pad "2" thru_hole circle
+	(pad "1" thru_hole circle
 		(at -2.54 0)
 		(size 1.524 1.524)
 		(drill 0.762)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "051b42e6-797c-4c3b-84e5-f41638a831cd")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f492639-e305-4e17-9609-acd99070a9df")
 	)
 	(pad "3" thru_hole circle
 		(at 2.54 0)
@@ -137,7 +136,7 @@
 		(remove_unused_layers no)
 		(uuid "26d600b9-47f1-4675-a848-ca9f5c3ab2b8")
 	)
-	(model "E:/E-Documentos/KiCad/MixLib/MixLib.3dshapes/SW_Slide-03_P2.54.STEP"
+	(model "${KICAD8_3DMODEL_MIXLIB}/SW_Slide-03_P2.54.STEP"
 		(offset
 			(xyz 0 0 1.8)
 		)

@@ -451,7 +451,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "4e5b0c4d-0c56-4ae8-bd29-ae193949519a")
 	)
-	(model "E:/E-Documentos/KiCad/MixLib/MixLib.3dshapes/USB4120-03-C_REVA.step"
+	(model "${KICAD8_3DMODEL_MIXLIB}/USB4120-03-C_REVA.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -406,7 +406,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "f4216bae-0754-4423-9a18-ebe130a0c101")
 	)
-	(model "C:/Users/Jere/Desktop/GitHub/MixLib/MixLib.3dshapes/ESP32-C3_SUPERMINI.step"
+	(model "${KICAD8_3DMODEL_MIXLIB}/ESP32-C3_SUPERMINI.step"
 		(offset
 			(xyz 0 0 0)
 		)

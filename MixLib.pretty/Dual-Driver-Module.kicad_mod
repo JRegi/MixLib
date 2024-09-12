@@ -67,6 +67,17 @@
 		)
 	)
 	(attr through_hole)
+	(fp_rect
+		(start -8.05 -10.5)
+		(end 8.3 10.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ba656d3e-c4af-48f9-8bed-6db93cf4b88b")
+	)
 	(fp_poly
 		(pts
 			(xy 4.575 4.475) (xy 4.575 6.85) (xy 5.85 5.675)
@@ -80,6 +91,17 @@
 		(uuid "2f075ff3-1391-4b5a-b412-1320c03edabd")
 	)
 	(fp_rect
+		(start -8.15 -10.6)
+		(end 8.4 10.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f8c8146d-594f-498d-a0ff-6b125cb235a6")
+	)
+	(fp_rect
 		(start -8 -9.7)
 		(end -5.1 8.3)
 		(stroke
@@ -87,7 +109,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "Dwgs.User")
+		(layer "F.Fab")
 		(uuid "80b8aa05-f488-4f1d-8a06-1044e646433c")
 	)
 	(fp_rect
@@ -98,30 +120,8 @@
 			(type default)
 		)
 		(fill none)
-		(layer "Dwgs.User")
+		(layer "F.Fab")
 		(uuid "2a85d3d8-a4b8-432a-b3b5-a5d95a695cc7")
-	)
-	(fp_rect
-		(start -8.05 -10.5)
-		(end 8.3 10.7)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Edge.Cuts")
-		(uuid "ba656d3e-c4af-48f9-8bed-6db93cf4b88b")
-	)
-	(fp_rect
-		(start -8.15 -10.6)
-		(end 8.4 10.8)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "Margin")
-		(uuid "f8c8146d-594f-498d-a0ff-6b125cb235a6")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -0.05 15.35 0)
