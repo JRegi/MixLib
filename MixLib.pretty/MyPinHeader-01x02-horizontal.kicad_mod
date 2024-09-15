@@ -1,4 +1,4 @@
-(footprint "MyPinHeader-01x02-vertical"
+(footprint "MyPinHeader-01x02-horizontal"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "MyPinHeader-01x02-vertical"
+	(property "Value" "MyPinHeader-01x02-horizontal"
 		(at 1.78 8 0)
 		(unlocked yes)
 		(layer "F.Fab")
