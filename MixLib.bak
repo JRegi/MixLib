@@ -1725,7 +1725,7 @@
 		(symbol "MP2315GJ_0_1"
 			(rectangle
 				(start -8.89 10.16)
-				(end 8.89 -10.16)
+				(end 8.89 -11.43)
 				(stroke
 					(width 0)
 					(type default)
@@ -1791,7 +1791,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -7.62 0)
+				(at -11.43 -8.89 0)
 				(length 2.54)
 				(name "AAM"
 					(effects
@@ -1809,7 +1809,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 90)
+				(at 0 -13.97 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1863,7 +1863,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -7.62 180)
+				(at 11.43 -8.89 180)
 				(length 2.54)
 				(name "FB"
 					(effects
