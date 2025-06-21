@@ -427,7 +427,7 @@
 		(uuid "38491f48-bfe2-41e5-86a5-bbf6d0de3322")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/jere/Documents/MixLib/MixLib.3dshapes/XT30PW-M.step"
+	(model "${KICAD_MIXLIB}/MixLib.3dshapes/XT30PW-M.step"
 		(offset
 			(xyz 0 0 0)
 		)

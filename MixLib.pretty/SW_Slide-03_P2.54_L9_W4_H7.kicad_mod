@@ -1,7 +1,7 @@
 (footprint "SW_Slide-03_P2.54_L9_W4_H7"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 2.8 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "7cc3e735-f4d9-4cff-96e0-2e797d1d630f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -0.1 3.1 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "332415ac-3d52-4422-a960-f182c4ecfff3")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "46ca6f1e-4ac7-4733-8234-9f98fed81dc8")
 	)
@@ -85,7 +72,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "25d58e42-3a93-4f5e-92ce-c5f4905283bd")
 	)
@@ -96,7 +83,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "fd51bedd-e184-4612-8c6a-f0d0a4659616")
 	)
@@ -136,7 +123,8 @@
 		(remove_unused_layers no)
 		(uuid "26d600b9-47f1-4675-a848-ca9f5c3ab2b8")
 	)
-	(model "${KICAD8_3DMODEL_MIXLIB}/SW_Slide-03_P2.54.STEP"
+	(embedded_fonts no)
+	(model "${KICAD_MIXLIB}/MixLib.3dshapes/SW_Slide-03_P2.54.STEP"
 		(offset
 			(xyz 0 0 1.8)
 		)

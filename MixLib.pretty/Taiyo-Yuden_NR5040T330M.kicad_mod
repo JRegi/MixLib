@@ -1,7 +1,7 @@
 (footprint "Taiyo-Yuden_NR5040T330M"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.000015 -3.816885 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1.001843 1.001843)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "bbd6a318-30d8-47b5-a06a-306350de8a77")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -165,18 +153,19 @@
 	(pad "1" smd rect
 		(at -1.8 0)
 		(size 1.5 4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "6a1893a7-d336-4550-a81f-1bdfc76fcc99")
 	)
 	(pad "2" smd rect
 		(at 1.8 0)
 		(size 1.5 4)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(solder_mask_margin 0.102)
 		(uuid "2cbcee19-f675-48dd-a5d9-489fca2c0e7c")
 	)
-	(model "E:/E-Documentos/KiCad/MixLib/MixLib.3dshapes/NR5040T330M.step"
+	(embedded_fonts no)
+	(model "${KICAD_MIXLIB}/MixLib.3dshapes/NR5040T330M.step"
 		(offset
 			(xyz 0 0 4)
 		)
