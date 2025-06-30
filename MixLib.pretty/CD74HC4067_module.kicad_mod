@@ -1,7 +1,7 @@
-(footprint "HP4067_module"
-	(version 20240108)
+(footprint "CD74HC4067_module"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.05 -2.3 0)
@@ -15,24 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "HP4067_module"
+	(property "Value" "CD74HC4067_module"
 		(at 0.05 -0.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "31227a86-05c9-470c-b6bd-16bb8c754031")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0.05 -1.8 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4890386c-2f5f-4ea2-a981-9d32e22e3302")
 		(effects
 			(font
 				(size 1 1)
@@ -114,7 +101,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "2c2d2ae2-e192-44e4-a291-c5793db2f5b4")
 	)
@@ -125,7 +112,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "5f64a564-30b5-4d13-b4c8-94045d92cf92")
 	)
@@ -136,7 +123,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "7f6ef39b-bfe5-4eb7-a5d4-1912256b1bd3")
 	)
@@ -147,7 +134,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "267669aa-a186-463b-8ce3-6eca870fe05c")
 	)
@@ -355,4 +342,5 @@
 		(remove_unused_layers no)
 		(uuid "89206bb6-84b4-43e7-8b67-4634b13b0c2c")
 	)
+	(embedded_fonts no)
 )
