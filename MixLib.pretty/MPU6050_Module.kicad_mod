@@ -359,4 +359,15 @@
 		(uuid "a0c174ee-f884-45f1-8f40-c00a6fe32caa")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_MIXLIB}/MixLib.3dshapes/MPU6050_Module_PinSocket.step"
+		(offset
+			(xyz -0.055 0.25 12)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
 )
