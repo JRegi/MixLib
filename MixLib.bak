@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MixLib:HP4067_module"
+		(property "Footprint" "MixLib:CD74HC4067_module"
 			(at 2.286 9.652 0)
 			(effects
 				(font
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, Module"
+		(property "Description" "High-Speed CMOS Logic 16-Channel Analog Multiplexer/Demultiplexer, Breakout Board"
 			(at 2.286 9.652 0)
 			(effects
 				(font
@@ -1257,7 +1257,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ESP32-DEVKIT-V1:MODULE_ESP32_DEVKIT_V1"
+		(property "Footprint" "MixLib:ESP32_DEVKIT_30pin"
 			(at 0 0 0)
 			(effects
 				(font
