@@ -4,6 +4,7 @@
 ## *Importante*
 - Para facilitar la configuración de los modelos 3D podes crear una variable de dirección (path variable) que apunte a la carpeta *MixLib.3dshapes*, dentro del repo clonado. Así:
 
+
 ![3d_config](MixLib_3d_path_config.png "Config_3D")
 
 
