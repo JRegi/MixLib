@@ -987,7 +987,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD_MIXLIB}/MixLib.3dshapes/MagicAlonso_Red_Mod_23.5mm.step"
+	(model "${KICAD_MIXLIB}/MagicAlonso_Red_Mod_23.5mm.step"
 		(offset
 			(xyz 23.62 -3 13)
 		)
