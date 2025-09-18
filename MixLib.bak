@@ -7961,7 +7961,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TL1838"
 			(at 0 0 0)
 			(effects
 				(font

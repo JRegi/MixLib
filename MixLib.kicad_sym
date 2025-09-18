@@ -7954,7 +7954,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.254 7.366 0)
+			(at -0.254 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7962,7 +7962,7 @@
 			)
 		)
 		(property "Value" "TL1838"
-			(at 0 0 0)
+			(at -0.254 7.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8019,26 +8019,8 @@
 			)
 		)
 		(symbol "TL1838_1_1"
-			(pin output line
-				(at 6.35 3.81 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 6.35 0 180)
+				(at 6.35 3.81 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -8048,6 +8030,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 6.35 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
