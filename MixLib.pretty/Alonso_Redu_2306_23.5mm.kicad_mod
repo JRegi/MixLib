@@ -1,4 +1,4 @@
-(footprint "MagicAlonso_Red_Mod_23.5mm"
+(footprint "Alonso_Redu_2306_23.5mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "MagicAlonso_Red_Mod_23.5mm"
+	(property "Value" "Alonso_Redu_2306_23.5mm"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")

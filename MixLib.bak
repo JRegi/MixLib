@@ -5476,77 +5476,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "TE Connectivity"
-			(at 2.286 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Cable Markers Printable Heat Shrink"
-			(at 2.032 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 2.286 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/HC05/TE+Connectivity/view-part/?ref=snap"
-			(at 0 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "HC05"
-			(at 1.778 27.178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 3.048 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/HC05/TE+Connectivity/view-part/?ref=eda"
 			(at 0 27.94 0)
 			(effects
 				(font
@@ -5558,8 +5488,8 @@
 		)
 		(symbol "HC05_0_0"
 			(rectangle
-				(start -7.62 12.7)
-				(end 12.7 -10.16)
+				(start -8.255 13.335)
+				(end 6.985 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -5569,19 +5499,19 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 0 180)
-				(length 5.08)
+				(at 10.16 0 180)
+				(length 3.08)
 				(name "STATE"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "STATE"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1 1)
 						)
 					)
 				)
@@ -5589,91 +5519,91 @@
 		)
 		(symbol "HC05_1_0"
 			(pin input line
-				(at -12.7 7.62 0)
-				(length 5.08)
+				(at -11.43 10.16 0)
+				(length 3.08)
 				(name "EN"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "EN"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin output line
-				(at -12.7 3.81 0)
-				(length 5.08)
+				(at -11.43 5.08 0)
+				(length 3.08)
 				(name "TXD"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "TXD"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin input line
-				(at -12.7 -1.27 0)
-				(length 5.08)
+				(at -11.43 0 0)
+				(length 3.08)
 				(name "RXD"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "RXD"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin power_in line
-				(at 2.54 17.78 270)
-				(length 5.08)
+				(at 10.16 10.16 180)
+				(length 3.08)
 				(name "VCC"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "VCC"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1 1)
 						)
 					)
 				)
 			)
 			(pin power_out line
-				(at 2.54 -15.24 90)
-				(length 5.08)
+				(at 10.16 5.08 180)
+				(length 3.08)
 				(name "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1.27 1.27)
 						)
 					)
 				)
 				(number "GND"
 					(effects
 						(font
-							(size 1.016 1.016)
+							(size 1 1)
 						)
 					)
 				)
@@ -8570,6 +8500,124 @@
 					(effects
 						(font
 							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VS / TL 1838"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -0.254 7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MixLib:VS _ TL 1838"
+			(at -0.254 11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VS / TL 1838_0_1"
+			(rectangle
+				(start -3.81 6.35)
+				(end 3.81 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VS / TL 1838_1_1"
+			(pin output line
+				(at 6.35 3.81 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 6.35 0 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 6.35 -3.81 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
