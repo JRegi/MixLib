@@ -269,4 +269,15 @@
 		(uuid "f3b6da8a-6741-4b8d-94dd-12a8b9979ca9")
 	)
 	(embedded_fonts no)
+	(model "${KICAD_MIXLIB}/modulo_1404_mini.step"
+		(offset
+			(xyz -3.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )
